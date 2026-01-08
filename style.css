@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+#player {
+  max-width: 400px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #333;
+}
+
+li:hover {
+  background: #222;
+}
