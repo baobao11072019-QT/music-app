@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+select, .mode {
+  margin: 10px;
+}
+
 #player {
   max-width: 400px;
   margin: auto;
@@ -19,6 +23,11 @@ li {
   cursor: pointer;
   padding: 8px;
   border-bottom: 1px solid #333;
+}
+
+li.active {
+  background: #1db954;
+  color: black;
 }
 
 li:hover {
