@@ -1,8 +1,20 @@
 [
   {
-    "title": "Say 1 đời vì em",
-    "artist": "Nguyên Vũ",
-    "src": "https://zingmp3.vn/album/Say-Mot-Doi-Vi-Em-Single-Nguyen-Vu/6CE87AII.html"
+    "title": "Lofi Chill",
+    "artist": "Artist A",
+    "genre": "Lofi",
+    "src": "music/lofi1.mp3"
+  },
+  {
+    "title": "Lofi Night",
+    "artist": "Artist B",
+    "genre": "Lofi",
+    "src": "music/lofi2.mp3"
+  },
+  {
+    "title": "EDM Fire",
+    "artist": "DJ C",
+    "genre": "EDM",
+    "src": "music/edm1.mp3"
   }
 ]
-
