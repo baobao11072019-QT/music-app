@@ -7,15 +7,30 @@
 </head>
 <body>
 
-<h2>🎵 Music App Online</h2>
+<h2>🎵 Music App</h2>
 
-<div id="player">
-  <p id="song-title">Chưa phát</p>
+<!-- Chọn thể loại -->
+<select id="genreSelect">
+  <option value="all">Tất cả thể loại</option>
+</select>
 
-  <audio id="audio" controls></audio>
-
-  <ul id="playlist"></ul>
+<!-- Chế độ phát -->
+<div class="mode">
+  <label>
+    <input type="radio" name="playMode" value="order" checked>
+    Phát theo thứ tự
+  </label>
+  <label>
+    <input type="radio" name="playMode" value="single">
+    Chỉ 1 bài
+  </label>
 </div>
+
+<p id="song-title">Chưa phát</p>
+
+<audio id="audio" controls></audio>
+
+<ul id="playlist"></ul>
 
 <script src="script.js"></script>
 </body>
